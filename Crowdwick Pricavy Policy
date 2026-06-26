@@ -1,0 +1,71 @@
+Privacy Policy
+Effective Date: June 1, 2026  ·  Last Updated: June 15, 2026
+
+Crowdwick ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Crowdwick mobile application ("App"). By creating an account or using the App, you acknowledge that you have read, understood, and agreed to the terms of this Privacy Policy. If you do not agree, please do not use the App.
+
+1. Information We Collect
+a) Directly provided: account credentials, username (3–20 chars, publicly visible), email verification (via Resend, from noreply@aevonsoft.com), profile info, user-generated content, feedback/communications.
+
+b) Age verification data: exact DOB collected at signup for COPPA (min age 13); only birth year/month/day + verification timestamp retained; deletable only via full account deletion.
+
+c) Device permissions: camera/mic/storage only when uploading content; biometric sign-in is handled entirely on-device, Crowdwick never sees biometric data. In accordance with the Texas Capture or Use of Biometric Identifier Act (CUBI), we note that Crowdwick does not capture, store, or transmit any biometric identifiers — authentication is performed locally by your device's operating system only. [LAWYER REVIEW REQUIRED — confirm CUBI disclosure language before treating as final.]
+
+d) Automatic: usage data (views, GO/MAYBE/SKIP, scroll, session length), device info, crash/performance logs.
+
+e) Location: precise GPS if permitted (see Section 4).
+
+f) From third parties: Supabase (auth data), RevenueCat + App Store/Play Store (subscription/purchase data).
+
+g) Social connections: follows, friend requests, mutual friends.
+
+h) Group chat content: messages/images/event refs, visible to chat members, deleted when chat or account is deleted.
+
+2. How We Use Your Information
+Service delivery, personalization, notifications, aggregated analytics (no individual profiling), safety/fraud prevention, legal compliance, support communications, subscription management. No automated decisions with significant legal effect without human review.
+
+When we refer to "aggregated" or "anonymized" analytics, we mean that usage data is combined across many users and stripped of any identifiers that could be traced back to a specific individual — we look at patterns across the user base, not individual activity.
+
+3. How We Share Your Information
+We never sell, rent, or trade your personal information. We do not use third-party advertising networks or ad-tracking SDKs. Your data is shared only with the following service providers, solely for the purpose of operating the App:
+
+Supabase (hosting/auth/storage), Anthropic (aggregated, de-identified feedback text via Claude API for AI summaries — not used to train models), Resend (email delivery), Google Cloud Vision API (content moderation on uploads), RevenueCat (subscription/payment management, no card details).
+
+We also share data when required by law, in connection with a business transfer, or with your explicit consent.
+
+[LAWYER REVIEW REQUIRED — confirm DPAs are actually signed before treating as final.] We have data processing agreements in place with our sub-processors governing how they handle your data on our behalf.
+
+[LAWYER REVIEW REQUIRED — confirm actual cross-border transfer mechanism in place before treating as final.] Because our hosting and processing partners operate in the United States, data from users in the EEA/UK may be transferred internationally. We take steps to ensure appropriate safeguards, such as Standard Contractual Clauses, are in place where applicable.
+
+4. Location Data
+Collected only while the App is in use (no background tracking), used solely for distance/nearby-event ranking, not persisted server-side as precise coordinates, revocable anytime. A one-time reverse-geocode at signup determines EEA/UK status to apply the correct minimum age (16 vs 13).
+
+5. User-Generated Content
+You retain ownership of your content. You grant Crowdwick a non-exclusive, royalty-free, worldwide license to host, display, and distribute it. You are responsible for the legality of what you upload. Deleted content is purged from backups within 90 days. Stories support "Everyone"/"Friends only" visibility.
+
+6. Data Retention
+Account data while active; usage analytics anonymized and kept ≤24 months; user content until deletion +90 days; feedback ≤12 months; age verification kept for account lifetime (COPPA); subscription data for account lifetime. Account deletion results in personal data being removed within 30 days (subject to legal holds). Accounts inactive for 24 months or more may also be subject to deletion, with advance notice — see our Terms of Service for details.
+
+7. Your Rights and Choices
+All users: access, correction, deletion, portability (Profile → Download My Data), notification opt-out.
+
+EEA/UK (GDPR): object/restrict processing, complain to a DPA/ICO, contact for requests, response within 30 days, legal bases = contract + legitimate interest, consent withdrawable.
+
+California (CCPA/CPRA): know/delete/opt-out-of-sale (we don't sell data; "Do Not Sell My Data" toggle exists), non-discrimination; response within 45 days.
+
+8. Children's Privacy (COPPA)
+Not directed at under-13 (under-16 in EEA). DOB-gated at signup, blocked instantly with no data submitted if underage. Later-discovered violations result in suspension and deletion within 72 hours. Parental reports accepted at crowdwick@gmail.com ("COPPA - Minor Account Report").
+
+9. Data Security
+TLS in transit, encryption at rest (via Supabase), RLS-based access control, strong password policy, no client-side API keys, rate limiting. Breach notification within 72 hours (GDPR) where required.
+
+10. Third-Party Services
+Supabase, Anthropic (Claude API), Resend, Google Cloud Vision, RevenueCat, OpenStreetMap/CartoDB (map tiles, may log IP). Each is governed by its own privacy policy. We are not responsible for their practices.
+
+11. Changes to This Policy
+We will update the "Last Updated" date and provide at least 14 days' notice before material changes take effect, via in-app notice and mandatory re-acceptance to keep using the app.
+
+12. Contact Us
+Crowdwick / Aevon Scientific
+Houston, TX, US
+crowdwick@gmail.com
+We respond within 30 days. Include "Privacy Request" in the subject line for deletion or access requests.
